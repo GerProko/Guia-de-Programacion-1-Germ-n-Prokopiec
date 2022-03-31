@@ -10,18 +10,22 @@ using UnityEngine;
 public class EJ5 : MonoBehaviour
 {
 
-    public float num1;
-    public float num2;
+    public int num1;
+    public int num2;
 
     void Start()
     {
-       if (num2 == 0)
+
+        float num1_float = (float)num1;
+        float num2_float = (float)num2;
+
+        if (num2 == 0)
         {
             Debug.Log("No se puede dividir por cero");
         }
         else
         {
-        float resultado = num1 / num2;
+        float resultado = num1_float / num2_float;
         Debug.Log (num1 + "/" + num2 + " = " + resultado);
         }
     }
