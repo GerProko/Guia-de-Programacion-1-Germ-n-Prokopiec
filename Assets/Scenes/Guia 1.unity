@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &462320397
 Transform:
   m_ObjectHideFlags: 0
@@ -233,13 +233,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 477749187}
+  - component: {fileID: 477749188}
   m_Layer: 0
   m_Name: EJ9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &477749187
 Transform:
   m_ObjectHideFlags: 0
@@ -254,6 +255,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &477749188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477749186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482bc209d7823e540962a6f75be880ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre1: ger
+  ingresos1: 100
+  nombre2: mati
+  ingresos2: 200
+  nombre3: pancho
+  ingresos3: 300
 --- !u!1 &499393285
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,13 +312,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 528512464}
+  - component: {fileID: 528512465}
   m_Layer: 0
   m_Name: EJ8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &528512464
 Transform:
   m_ObjectHideFlags: 0
@@ -314,6 +334,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &528512465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528512463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f00bf99b1c8104e83cf70c2998dd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num_dia: 8
 --- !u!1 &651863650
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,13 +356,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 651863651}
+  - component: {fileID: 651863652}
   m_Layer: 0
   m_Name: EJ10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &651863651
 Transform:
   m_ObjectHideFlags: 0
@@ -344,6 +378,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &651863652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651863650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a7910a0c67d544489722281a3283b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hora: 10
 --- !u!1 &762149993
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 762149994}
+  - component: {fileID: 762149995}
   m_Layer: 0
   m_Name: EJ12
   m_TagString: Untagged
@@ -374,6 +422,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &762149995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762149993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c6d33095439f74f92db7e9c706d02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &984024594
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &984024595
 Transform:
   m_ObjectHideFlags: 0
@@ -419,7 +479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1149218792
 Transform:
   m_ObjectHideFlags: 0
@@ -449,7 +509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1353332255
 Transform:
   m_ObjectHideFlags: 0
@@ -509,7 +569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1547157924
 Transform:
   m_ObjectHideFlags: 0
@@ -539,7 +599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1670106113
 Transform:
   m_ObjectHideFlags: 0
@@ -569,7 +629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1848471686
 Transform:
   m_ObjectHideFlags: 0
@@ -692,13 +752,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2109178198}
+  - component: {fileID: 2109178199}
   m_Layer: 0
   m_Name: EJ11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2109178198
 Transform:
   m_ObjectHideFlags: 0
@@ -713,3 +774,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2109178199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109178197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78d331eba46e3b4cae24c00c13c1aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fecha: 2022331
+  nombre: ger
+  producto: chocolate
+  cantidad: 2
+  precio: 100
