@@ -11,11 +11,38 @@ using UnityEngine;
 
 public class EJ12 : MonoBehaviour
 {
-
+    public int dado1;
+    public int dado2;
+    public int dado3;
 
     void Start()
     {
+        if (dado1 >= 7 || dado2 >= 7 || dado3 >= 7 || dado1 <= 0 || dado2 <= 0 || dado3 <= 0)
+        {
+            Debug.Log("El valor ingresado no es valido");
+        }
+        else  if (dado1 == 6 && dado2 == 6 && dado3 == 6)
+        {
+            Debug.Log("Exelente");
+            return;
+        }
+        else if (dado1 == 6 && dado2 == 6 || dado1 == 6 && dado3 == 6 || dado2 == 6 && dado3 == 6)
+        {
+            Debug.Log("Muy Bien");
+        }
+        else if (dado1 == 6 || dado2 == 6 || dado3 ==6)
+        {
+            Debug.Log("Regular");
+        }
+        else if (dado1 != 6 && dado2 != 6 && dado3 != 6)
+        {
+            Debug.Log("Insuficiente");
+        }
         
+        //else if (dado1 <= 0 || dado2 <= 0 || dado3 <=0)
+        //{
+        //    Debug.Log("El valor ingresado no es valido");
+        //}
     }
 
     void Update()
