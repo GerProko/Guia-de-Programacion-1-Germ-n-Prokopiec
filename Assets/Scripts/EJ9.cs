@@ -20,7 +20,7 @@ public class EJ9 : MonoBehaviour
     public double ingresos3;
     double total;
     
-
+        
     void Start()
     {
         total = ingresos1 + ingresos2 + ingresos3;
